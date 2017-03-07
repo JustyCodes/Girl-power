@@ -44,11 +44,14 @@ header div h1 {
 .white {
   background: linear-gradient(to right, white, white, pink, magenta);
 }
-.pink, .pink2 {
-  background: linear-gradient(to right, white, pink, magenta);
+.pink {
+  background: linear-gradient(to right, white, pink, magenta, pink);
 }
 .magenta {
-  background: linear-gradient(to right, pink, pink, magenta, darkmagenta);
+  background: linear-gradient(to right, magenta, pink, pink, white);
+}
+.pink2 {
+  background: linear-gradient(to right, magenta, pink, white, pink);
 }
 
 /*navigation links styling*/
