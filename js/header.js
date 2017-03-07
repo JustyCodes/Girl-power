@@ -13,5 +13,5 @@ var main = setInterval(function() {
     $('header').addClass('white')
   }
     
-}, 3000);
+}, 1000);
 $(document).ready(main);
